@@ -9,6 +9,6 @@ function initSelectize() {
   }, 100)
 }
 
-document.addEventListener("turbolinks:load", function() {
+$(document).ready(() => {
   $('.add_fields').on('click', initSelectize)
 })
