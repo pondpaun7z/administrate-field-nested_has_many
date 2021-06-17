@@ -17,6 +17,8 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "administrate", "> 0.8", "< 1"
   gem.add_dependency "cocoon", "~> 1.2", ">= 1.2.11"
+  gem.add_dependency "jquery-rails", ">= 4.4"
+  gem.add_dependency "selectize-rails", "~> 0.6"
 
   gem.add_development_dependency "appraisal"
   gem.add_development_dependency "capybara"
